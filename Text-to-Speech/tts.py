@@ -1,3 +1,4 @@
+#import necessary libraries
 from gtts import gTTS
 import os
 
@@ -5,6 +6,7 @@ import os
 f=open('text.txt')
 x=f.read()
 
+#set language=english
 language='en'
 audio=gTTS(text=x,lang=language,slow=False)
 
